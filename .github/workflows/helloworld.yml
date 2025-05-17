@@ -1,0 +1,8 @@
+name: Hello World
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      -name: First cmd run
+      run: echo "Hello World"
