@@ -1,8 +1,13 @@
 name: Hello World
-on: push
+on: 
+  push:
+    branches:
+      - master
 jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
       - name: First cmd run
-        run: echo "Hello World"
+        run: |
+          echo "Hello World"
+          echo "Second line"
