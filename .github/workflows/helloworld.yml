@@ -10,4 +10,4 @@ jobs:
       - name: First cmd run
         run: |
           echo "Hello World"
-          echo "Second line"
+          echo "Second line1"
