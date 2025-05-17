@@ -1,7 +1,7 @@
 name: Hello World
 on: 
   schedule:
-    - cron: '15 15 * * SAT'
+    - cron: '48 20 * * SAT'
 jobs:
   job1:
     runs-on: ubuntu-latest
